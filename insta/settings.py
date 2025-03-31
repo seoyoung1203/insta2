@@ -122,3 +122,9 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# 사진도 같이 올려보자
+MEDIA_URL = '/media/' # 웹에서 접근하는 경로
+
+MEDIA_ROOT = BASE_DIR/ 'media' # 실제로 파일이 저장되는 폴더
+
