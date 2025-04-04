@@ -131,3 +131,5 @@ MEDIA_URL = '/media/' # 웹에서 접근하는 경로
 
 MEDIA_ROOT = BASE_DIR/ 'media' # 실제로 파일이 저장되는 폴더
 
+AUTH_USER_MODEL = 'accounts.User' # 내가 직접 만든 커스텀 User 모델을 사용할 거야
+
