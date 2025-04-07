@@ -16,3 +16,7 @@ def signup(request):
     }
 
     return render(request, 'signup.html', context)
+
+
+# def login(request):
+
